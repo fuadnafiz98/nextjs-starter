@@ -1,5 +1,5 @@
 module.exports = {
-  extends: ['alloy', 'alloy/react', 'alloy/typescript'],
+  extends: ["alloy", "alloy/react", "alloy/typescript"],
   env: {
     node: true,
     browser: true,
@@ -8,9 +8,10 @@ module.exports = {
     REACT_APP_ENV: true,
   },
   rules: {
-    complexity: 'off',
-    'prefer-promise-reject-errors': 'off',
-    '@typescript-eslint/no-parameter-properties': 'off',
-    '@typescript-eslint/explicit-member-accessibility': 'off'
+    complexity: "off",
+    "prefer-promise-reject-errors": "off",
+    "@typescript-eslint/no-parameter-properties": "off",
+    "@typescript-eslint/explicit-member-accessibility": "off",
+    "@typescript-eslint/no-require-imports": "on",
   },
-}
+};

@@ -17,10 +17,8 @@
 A Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
 
 - ⚙️ **Tailwind CSS** - A utility-first CSS framework
-- 🍓 **Styled Components** - Styling React component
 - 📏 **ESLint** — Pluggable JavaScript linter
 - 💖 **Prettier** - Opinionated Code Formatter
-- 🐶 **Husky** — Use git hooks with ease
 - 🚫 **lint-staged** - Run linters against staged git files
 - 🗂 **Absolute import** - Import folders and files using the `@` prefix
 
@@ -43,8 +41,9 @@ To view the project open `http://localhost:3000`.
 
 1. Fork this repository;
 2. Create your branch: `git checkout -b my-new-feature`;
-3. Commit your changes: `git commit -m 'Add some feature'`;
-4. Push to the branch: `git push origin my-new-feature`.
+3. Add your changes `git add .`;
+4. Commit your changes: `git commit -m 'Add some feature'`;
+5. Push to the branch: `git push origin my-new-feature`.
 
 **After your pull request is merged**, you can safely delete your branch.
 
@@ -54,4 +53,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ---
 
-Made with ♥ by Clare Chang
+Made with ♥ by Clare Chang & modified by [@fuadnafiz98](https://github.com/fuadnafiz98)
