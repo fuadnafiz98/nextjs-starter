@@ -14,13 +14,13 @@
 
 <br>
 
-A Next.js starter that includes all you need to build amazing projects 🔥. Fork and customize from [jpedroschmitz](https://github.com/jpedroschmitz/typescript-nextjs-starter)
+A Next.js GraphQL starter that includes all you need to build amazing projects 🔥. Fork and customize from [fuadnafiz98](https://github.com/fuadnafiz98/nextjs-starter)
 
 - ⚙️ **Tailwind CSS** - A utility-first CSS framework
 - 📏 **ESLint** — Pluggable JavaScript linter
 - 💖 **Prettier** - Opinionated Code Formatter
 - 🚫 **lint-staged** - Run linters against staged git files
-- 🗂 **Absolute import** - Import folders and files using the `@` prefix
+- 🔗 **Absolute import** - Import folders and files using the `@` prefix
 
 ## 🚀 Getting started
 
@@ -53,4 +53,4 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ---
 
-Made with ♥ by Clare Chang & modified by [@fuadnafiz98](https://github.com/fuadnafiz98)
+Made with ♥ by [@fuadnafiz98](https://github.com/fuadnafiz98)
