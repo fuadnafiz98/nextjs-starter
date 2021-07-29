@@ -20,7 +20,7 @@ A Next.js starter that includes all you need to build amazing projects 🔥. For
 - 📏 **ESLint** — Pluggable JavaScript linter
 - 💖 **Prettier** - Opinionated Code Formatter
 - 🚫 **lint-staged** - Run linters against staged git files
-- 🗂 **Absolute import** - Import folders and files using the `@` prefix
+- 📁 **Absolute import** - Import folders and files using the `@` prefix
 
 ## 🚀 Getting started
 
