@@ -37,6 +37,10 @@ If you prefer you can clone this repository and run the following commands insid
 
 To view the project open `http://localhost:3000`.
 
+## Generating Favicons
+
+- create favicons from this [link](https://realfavicongenerator.net/)
+
 ## 🤝 Contributing
 
 1. Fork this repository;
