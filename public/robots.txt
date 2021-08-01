@@ -1,5 +1,9 @@
-user-agent: *
-allow: /
+# *
+User-agent: *
+Allow: /
 
-user-agent: Googlebot
-disallow: /nogooglebot/
+# Host
+Host: https://fuadnafiz98-nextjs-starter.vercel.app/
+
+# Sitemaps
+Sitemap: https://fuadnafiz98-nextjs-starter.vercel.app/sitemap.xml
