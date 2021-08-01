@@ -13,7 +13,7 @@ interface Props {
 
 const Meta = ({ children, date, image, router, keywords, title = "Next.js Starter", description }: Props) => {
   const domain = "https://fuadnafiz98-nextjs-starter.vercel.app";
-  const url = router && router.asPath ? router.asPath : undefined;
+  const url = router?.asPath ? router.asPath : undefined;
   const canonical = url && url === "/" ? domain : domain + url;
   const featuredImage = domain + image;
 
