@@ -1,4 +1,5 @@
-import Meta from "../components/Meta";
+import Meta from "@/src/client/components/Meta";
+import Console from "@/src/client/components/Console";
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
               this repo
             </a>
           </h2>
+          {/* <Console /> */}
         </div>
       </div>
     </Meta>

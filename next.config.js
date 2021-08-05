@@ -5,4 +5,7 @@ module.exports = {
     // your project has ESLint errors.
     ignoreDuringBuilds: false,
   },
+  // experimental: {
+  //   externalDir: true,
+  // },
 };

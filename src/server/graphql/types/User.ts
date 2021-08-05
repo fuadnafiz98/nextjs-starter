@@ -12,3 +12,16 @@ export const User = objectType({
     t.model.username();
   },
 });
+
+export const UserQuery = extendType({
+  type: "Query",
+  definition(t) {
+    t.list.field("users", {
+      type: "User",
+      async resolve(_, __, ctx) {
+        let results = await ctx.database.user.findMany();
+        return results;
+      },
+    });
+  },
+});

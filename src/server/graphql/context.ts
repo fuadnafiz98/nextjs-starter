@@ -5,6 +5,6 @@ export interface Context {
   database: PrismaClient;
 }
 
-export const context = {
+export const context: Context = {
   database,
 };

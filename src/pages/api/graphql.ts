@@ -1,5 +1,7 @@
 import { ApolloServer, gql } from "apollo-server-micro";
 import CORS from "micro-cors";
+import { context } from "../../server/graphql/context";
+import { schema } from "../../server/graphql/schema";
 
 const typeDefs = gql`
   type Query {
@@ -20,7 +22,8 @@ const resolvers = {
 
 const cors = CORS();
 
-const apolloServer = new ApolloServer({ resolvers, typeDefs });
+// const apolloServer = new ApolloServer({ resolvers, typeDefs });
+const apolloServer = new ApolloServer({ context, schema });
 
 const startServer = apolloServer.start();
 

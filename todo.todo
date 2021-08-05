@@ -1,3 +1,9 @@
 ☐ checkout this for subscription [https://stackoverflow.com/questions/62371284/apollo-server-with-subscriptions-used-inside-next-js-api-routes-websockets-trou/62940379#62940379]
-☐ generate graphql-typegen
-☐ install swr/urql
+✔ generate graphql-typegen @done(21-08-05 23:06)
+✔ install swr/urql @done(21-08-04 03:04)
+✔ work on writting query and resolvers in server @done(21-08-05 23:06)
+  ✔ then work on code-gen on frontend @done(21-08-05 23:06)
+  ☐ learn how to use codegen types
+
+-- reference article -> https://dev.to/prisma/complete-introduction-to-fullstack-type-safe-graphql-feat-next-js-nexus-prisma-c5
+-- github link -> https://github.com/hexrcs/fullstack-graphql-next-nexus-prisma/
