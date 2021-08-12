@@ -21,7 +21,7 @@
     "generate:nexus": "ts-node --transpile-only -P nexus.tsconfig.json src/server/graphql/schema.ts",
     "gen": "ts-node --compiler-options '{\"module\":\"CommonJS\"}' --transpile-only src/server/graphql/schema.ts",
     "type-check": "tsc",
-    "prisma:studio": "prisma studio --schema=./src/server/prisma/schema.prisma",
+    "studio": "prisma studio --schema=./src/server/prisma/schema.prisma",
     "lint": "eslint --ignore-path .gitignore \"src/**/*.+(ts|js|tsx)\"",
     "codegen": "graphql-codegen --config codegen.yml"
   },
