@@ -21,11 +21,9 @@ export type Query = {
 
 export type User = {
   __typename?: 'User';
-  id: Scalars['Int'];
   email: Scalars['String'];
+  id: Scalars['Int'];
   password: Scalars['String'];
-  refreshToken: Scalars['String'];
-  userId: Scalars['String'];
   username: Scalars['String'];
 };
 
